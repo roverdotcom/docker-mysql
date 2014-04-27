@@ -1,11 +1,16 @@
-docker-mysql
+docker-dev-mysql
 ============
+
+This repository is forked from the `orchardup/docker-mysql` repo and
+is mostly the same.
+
+The only change is that the `Dockerfile` no longer sets up
+a volume for the database's data.
 
 MySQL on Docker.
 
 Includes a bunch of cool features such as:
 
- - Exporting volumes so your data persists.
  - Not running as root.
  - Printing log output.
  - Setting a root password.
